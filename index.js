@@ -29,7 +29,7 @@ const puppeteer = require('puppeteer');
 			await page.click('.red-btn', {delay: 500});
 		}
 	} catch(e) {
-
+		console.log("Finished Clipping Coupons");
 	}
 
 	await browser.close();
