@@ -2,7 +2,12 @@ const puppeteer = require('puppeteer');
 
 (async () => {
 	// Set up browser and page.
-	const browser = await puppeteer.launch({ headless: true });
+	const browser = await puppeteer.launch({
+		args: [
+			'--no-sandbox',
+			'--disable-setuid-sandbox',
+		],
+	});
 	const page = await browser.newPage();
 	page.setViewport({ width: 1280, height: 926 });
 
