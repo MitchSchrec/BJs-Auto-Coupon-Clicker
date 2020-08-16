@@ -1,0 +1,26 @@
+{
+  "name": "bjs-auto-coupon-clicker",
+  "version": "1.0.0",
+  "description": "A puppeteer script to auto-click all of BJs coupons.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MitchSchrec/BJs-Auto-Coupon-Clicker.git"
+  },
+  "keywords": [
+    "BJs",
+    "Coupon"
+  ],
+  "author": "Mitchell Schrecongost",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MitchSchrec/BJs-Auto-Coupon-Clicker/issues"
+  },
+  "homepage": "https://github.com/MitchSchrec/BJs-Auto-Coupon-Clicker#readme",
+  "dependencies": {
+    "puppeteer": "^5.2.1"
+  }
+}
